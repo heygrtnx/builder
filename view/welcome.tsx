@@ -2,8 +2,8 @@
 import { AppSidebar } from "@/components/reusables/customUI";
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-
-import { cn, ModeToggle } from "@/lib";
+import { ModeToggle } from "@/lib";
+import ChatBot from "./chatBot";
 
 export default function WelcomeChat() {
 	return (
@@ -21,6 +21,7 @@ export default function WelcomeChat() {
 						<ModeToggle />
 					</div>
 				</header>
+				<ChatBot />
 			</SidebarInset>
 		</SidebarProvider>
 	);

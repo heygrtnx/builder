@@ -1,3 +1,4 @@
 import WelcomeChat from "./welcome";
+import ChatBot from "./chatBot";
 
-export { WelcomeChat };
+export { WelcomeChat, ChatBot };

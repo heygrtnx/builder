@@ -28,7 +28,7 @@ export default function RootLayout({
 		<html
 			lang="en"
 			suppressHydrationWarning>
-			<body className={cn("m-auto min-h-screen bg-background bg-center bg-no-repeat scroll-smooth antialiased")}>
+			<body className={cn("m-auto h-screen bg-background bg-center bg-no-repeat scroll-smooth antialiased")}>
 				<ThemeProvider
 					attribute="class"
 					defaultTheme="light"
