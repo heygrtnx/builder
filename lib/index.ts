@@ -4,3 +4,4 @@ export * from "./hero";
 export * from "./theme-provider";
 export * from "./showNotification";
 export * from "./font";
+export * from "./mode";
